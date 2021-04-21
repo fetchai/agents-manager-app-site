@@ -132,6 +132,29 @@
   margin-bottom: 0;
 }
 
+.FeedbackLink {
+  display: block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.FeedbackBtn {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  border-radius: none;
+  width: 250px;
+  height: 50px;
+  color: #FFFFFF;
+  background-color: darkgrey;
+  font: normal normal normal 17px/20px Montserrat;
+}
+
+.FeedbackBtn:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
 body {
   margin: 0;
   font: normal normal normal 17px/24px Montserrat;
@@ -139,7 +162,7 @@ body {
 
 @media screen and (max-device-width: 1024px) {
   body {
-    font: normal normal normal 37px/44px Montserrat;
+    font: normal normal normal 37px/40px Montserrat;
     line-height: 1;
   }
   .FetchaiLogoFooter {
@@ -163,5 +186,14 @@ body {
   .OsImg {
     width: 300px;
     height: 300px;
+  }
+  .FeedbackBtn {
+    font: normal normal normal 37px/40px Montserrat;
+    width: 500px;
+    height: 100px;
+  }
+  .FeedbackLink {
+    margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
