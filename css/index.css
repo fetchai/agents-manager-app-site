@@ -1,0 +1,112 @@
+.Header {
+  background-color: #1E2844;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Footer {
+  background-color: #1E2844;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.FooterLink {
+  color: #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  padding-left: 5px;
+  padding-right: 10px;
+}
+
+.FooterLink:last-child {
+  border-right: 0;
+}
+
+.InnerBlock {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 70%;
+  text-align: left;
+}
+
+.FetchaiLogo {
+  width: 127px;
+  height: 20px;
+}
+
+.Title {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  background-color: #1E2844;
+  color: #FFFFFF;
+  background-image: url("../assets/TitleBg.png");
+  padding-top: 60px;
+}
+
+.TitleHalf {
+  width: 50%;
+  display: inline-block;
+}
+
+.ManagerLogo {
+  width: 150px;
+  height: 150px;
+}
+
+.TitleHr {
+  max-width: 220px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.Screenshots {
+  width: 450px;
+  height: 100%;
+}
+
+.Links {
+  text-align: center;
+  height: 200px;
+  background-color: #F6F6F8;
+  width: 100%;
+  height: auto;
+
+}
+
+.LinksInnerBlock {
+  display: inline-block;
+  width: 70%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.OsImg {
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+}
+
+.Description {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+
+.DescriptionInnerBlock {
+  display: inline-block;
+  width: 70%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+body {
+  margin: 0;
+  font: normal normal normal 17px/24px Montserrat;
+}
