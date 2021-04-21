@@ -48,9 +48,15 @@
   padding-top: 60px;
 }
 
-.TitleHalf {
+.TitleLeft {
   width: 50%;
   display: inline-block;
+}
+
+.TitleRight {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
 }
 
 .ManagerLogo {
@@ -68,7 +74,7 @@
 
 .Screenshots {
   width: 450px;
-  height: 100%;
+  margin-bottom: 20px;
 }
 
 .Links {
@@ -91,6 +97,10 @@
   width: 150px;
   height: 150px;
   margin: 30px;
+}
+
+.OsLink {
+  text-decoration: none;
 }
 
 .Description {
