@@ -33,7 +33,19 @@
   text-align: left;
 }
 
+.FooterInnerBlock {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 70%;
+  text-align: left;
+}
+
 .FetchaiLogo {
+  width: 127px;
+  height: 20px;
+}
+
+.FetchaiLogoFooter {
   width: 127px;
   height: 20px;
 }
@@ -116,7 +128,40 @@
   padding-bottom: 60px;
 }
 
+.Copyright {
+  margin-bottom: 0;
+}
+
 body {
   margin: 0;
   font: normal normal normal 17px/24px Montserrat;
+}
+
+@media screen and (max-device-width: 1024px) {
+  body {
+    font: normal normal normal 37px/44px Montserrat;
+    line-height: 1;
+  }
+  .FetchaiLogoFooter {
+    display: none;
+  }
+  .FooterInnerBlock {
+    text-align: center;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .Copyright {
+    margin-bottom: 30px;
+  }
+  .FetchaiLogo {
+    width: 254px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .OsImg {
+    width: 300px;
+    height: 300px;
+  }
 }
