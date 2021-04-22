@@ -142,7 +142,7 @@
 
 .Btn {
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   outline: none;
   width: 250px;
   height: 50px;
@@ -152,11 +152,11 @@
 }
 
 .BtnDownload {
-  background-color: #5887da;
+  background-color: #5887DA;
 }
 
 .BtnDownload:hover {
-  background-color: #5887da !important;
+  background-color: #4265A3 !important;
 }
 
 .Btn:hover {
@@ -204,10 +204,9 @@ body {
     font: normal normal normal 37px/40px Montserrat;
     width: 500px;
     height: 100px;
-  }
-  .Btn {
     margin-top: 60px;
     margin-bottom: 60px;
+    border-radius: 20px;
   }
   .TitleRight {
     display: none;
