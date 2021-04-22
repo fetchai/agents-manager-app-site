@@ -82,6 +82,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
   color: grey;
+  border: none;
+  border-top: 1px solid #FFFFFF;
 }
 
 .Screenshots {
