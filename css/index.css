@@ -132,17 +132,18 @@
   margin-bottom: 0;
 }
 
-.FeedbackLink {
-  display: block;
+.Link {
+  display: contents;
   margin-bottom: 30px;
   margin-top: 30px;
+  width: fit-content;
+  height: auto;
 }
 
-.FeedbackBtn {
+.Btn {
   border: none;
   border-radius: 5px;
   outline: none;
-  border-radius: none;
   width: 250px;
   height: 50px;
   color: #FFFFFF;
@@ -150,9 +151,21 @@
   font: normal normal normal 17px/20px Montserrat;
 }
 
-.FeedbackBtn:hover {
+.BtnDownload {
+  background-color: #5887da;
+}
+
+.BtnDownload:hover {
+  background-color: #5887da !important;
+}
+
+.Btn:hover {
   background-color: grey;
   cursor: pointer;
+}
+
+.FeedbackLink {
+  text-align: center;
 }
 
 body {
@@ -187,13 +200,23 @@ body {
     width: 300px;
     height: 300px;
   }
-  .FeedbackBtn {
+  .Btn {
     font: normal normal normal 37px/40px Montserrat;
     width: 500px;
     height: 100px;
   }
-  .FeedbackLink {
+  .Btn {
     margin-top: 60px;
     margin-bottom: 60px;
+  }
+  .TitleRight {
+    display: none;
+  }
+  .TitleLeft {
+    width: 100%;
+    text-align: center;
+  }
+  .TitleHr {
+    display: none;
   }
 }
