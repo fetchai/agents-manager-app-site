@@ -170,6 +170,10 @@
   text-align: center;
 }
 
+.FAQ {
+  text-align: left;
+}
+
 body {
   margin: 0;
   font: normal normal normal 17px/24px Montserrat;
