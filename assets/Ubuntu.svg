@@ -1,7 +1,7 @@
 <svg
 	xmlns="http://www.w3.org/2000/svg" width="182.957" height="182.957" viewBox="0 0 182.957 182.957">
 	<defs>
-		<style>.a{fill:#1e2844;stroke:#43e8df;stroke-miterlimit:10;stroke-width:1.2px;}.b{fill:#dc461a;}.c{fill:#fff;}</style>
+		<style>.a{fill:none;stroke:#43e8df;stroke-miterlimit:10;stroke-width:1.2px;}.b{fill:#dc461a;}.c{fill:#fff;}</style>
 	</defs>
 	<g transform="translate(-1429.02 -264.046)">
 		<circle class="a" cx="90.878" cy="90.878" r="90.878" transform="translate(1429.62 264.646)"/>
