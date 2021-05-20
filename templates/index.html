@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <link rel="icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>AEA Manager</title>
+  </head>
+
+  <body>
+
+    <div class="Header">
+      <div class="InnerBlock">
+        <a href="https://fetch.ai/">
+          <img src="assets/Logo.svg" alt="Fetch.ai" class="FetchaiLogo">
+        </a>
+      </div>
+    </div>
+
+    <div class="Title">
+      <div class="InnerBlock">
+
+        <div class="TitleLeft">
+          <img src="assets/ManagerLogo.png" alt="AEA Manager" class="ManagerLogo">
+          <hr class="TitleHr">
+          <h1>AEA Manager</h1>
+          <p>Public beta</p>
+
+          <a href="#links" class="Link">
+            <button type="button" class="Btn BtnDownload">Download {{ versions.latest }}</button>
+          </a>
+        </div>
+
+        <div class="TitleRight">
+          <img src="assets/Screenshots.png" alt="" class="Screenshots">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="Description">
+      <div class="DescriptionInnerBlock">
+        <h2>Run your agents on your machine</h2>
+        <p>The AEA Manager lets you run finished AEAs without having to code. Fetch an agent, configure it and run it. It’s that simple!</p>
+      </div>
+    </div>
+
+    <div class="Links" id="links">
+      <div class="LinksInnerBlock">
+
+        <h2>Download for your platform</h2>
+        <a href="{{ urls.windows }}" class="OsLink">
+          <img src="assets/Windows.svg" alt="Windows" class="OsImg">
+        </a>
+        <a href="{{ urls.macos }}" class="OsLink">
+          <img src="assets/Macos.png" alt="macOS" class="OsImg">
+        </a>
+        <a href="{{ urls.deb }}" class="OsLink">
+          <img src="assets/Ubuntu.svg" alt="Ubuntu" class="OsImg">
+        </a>
+        <a href="{{ urls.rpm }}" class="OsLink">
+          <img src="assets/Rpm.png" alt="RPM" class="OsImg">
+        </a>
+
+        <div>
+          <a href="https://user-feedback.fetch.ai/" class="Link">
+            <button type="button" class="Btn">Provide feedback</button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="Description">
+      <div class="DescriptionInnerBlock">
+
+        <h2>FAQ</h2>
+        <br>
+
+        <div class="FAQ" id="FAQ">
+
+          <div>
+            <h3>Are Python and Go installations - as prompted during application install - mandatory to run the AEA Manager?</h3>
+            <p>
+              Yes. Python is required as the AEA framework is currently implemented in Python and Go is required by most agents. If you skip any of the above, you will not be able to run the application.
+            </p>
+          </div>
+          <br>
+
+          <div>
+            <h3>I have closed or interrupted the installation of Python/Go/Microsoft Visual C++ Build Tools on the first run of the application. How can I fix that?</h3>
+            <p>
+              Simply restart the AEA Manager application and it will ask you to install the missing dependencies.
+            </p>
+          </div>
+          <br>
+
+          <div>
+            <h3>Is it mandatory to install Microsoft Visual C++ Build Tools on Windows - as prompted during application install - to run the AEA Manager?</h3>
+            <p>
+              Yes. Microsoft Visual C++ Build Tools are required to build some AEA dependencies so installing it on Windows is mandatory.
+            </p>
+          </div>
+          <br>
+
+          <div>
+            <h3>I am having issues installing Microsoft Visual C++ Build Tools required by the AEA Manager application on Windows. How can this be solved?</h3>
+            <p>
+              If the installation fails during the AEA Manager’s first launch, try to follow these next steps:
+              <ul>
+                <li>Download the online installer from the <a href="https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019">official website</a>.</li>
+                <li>In Build tools, install C++ build tools and ensure the latest versions of MSVCv142 - VS 2019 C++ x64/x86 build tools and Windows 10 SDK are checked.</li>
+              </ul>
+              If you have Microsoft Visual C++ Build Tools previously installed please try uninstalling it and then repeat the steps above.
+            </p>
+          </div>
+          <br>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="Footer">
+      <div class="FooterInnerBlock">
+
+        <a href="https://fetch.ai/">
+          <img src="assets/Logo.svg" alt="Fetch.ai" class="FetchaiLogoFooter">
+        </a>
+        <div class="Copyright">Copyright © Fetch.ai 2021</div>
+        <div>
+          <a href="https://fetch.ai/legals/#cookies" class="FooterLink">Cookies</a>
+          <a href="https://fetch.ai/legals/#privacy" class="FooterLink">Privacy</a>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
