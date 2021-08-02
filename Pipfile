@@ -13,3 +13,4 @@ python_version = "3.9"
 
 [scripts]
 render = "./render.py"
+update-version = "./update-version.py"
