@@ -52,7 +52,7 @@
       <div class="LinksInnerBlock">
 
         <h2>Download for your platform</h2>
-        <a href="{{ urls.windows }}" class="OsLink">
+        <a href="{{ urls.windows }}" class="OsLink" onclick="firebase.analytics().logEvent('user_downloaded_manager_windows');">
           <img src="assets/Windows.svg" alt="Windows" class="OsImg">
         </a>
         <a href="{{ urls.macos }}" class="OsLink">
@@ -140,4 +140,27 @@
     </div>
 
   </body>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-analytics.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyCwW1QpuQOTyHeRXA2tMnuyDkTTbik_2XE",
+      authDomain: "fetch-ai-aea-manager.firebaseapp.com",
+      projectId: "fetch-ai-aea-manager",
+      storageBucket: "fetch-ai-aea-manager.appspot.com",
+      messagingSenderId: "216363635219",
+      appId: "1:216363635219:web:2af31cc64b7608b5c0a5e6",
+      measurementId: "G-R7F6BYW1T5"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
 </html>
