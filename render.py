@@ -8,7 +8,10 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 TEMPLATES_PATH = os.path.join(PROJECT_PATH, 'templates')
-PUBLIC_PATH = os.path.join(PROJECT_PATH, 'public')
+
+# The "docs" name of the folder is required by Github Pages
+# https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source
+PUBLIC_PATH = os.path.join(PROJECT_PATH, 'docs')
 VERSIONS_PATH = os.path.join(PROJECT_PATH, 'versions.json')
 
 BASE_URL = 'https://storage.googleapis.com/fetch-ai-aea-manager/releases'
@@ -55,4 +58,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
