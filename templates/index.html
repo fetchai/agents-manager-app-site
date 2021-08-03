@@ -55,13 +55,13 @@
         <a href="{{ urls.windows }}" class="OsLink" onclick="firebase.analytics().logEvent('user_downloaded_manager_windows');">
           <img src="assets/Windows.svg" alt="Windows" class="OsImg">
         </a>
-        <a href="{{ urls.macos }}" class="OsLink">
+        <a href="{{ urls.macos }}" class="OsLink" onclick="firebase.analytics().logEvent('user_downloaded_manager_macos');">
           <img src="assets/Macos.png" alt="macOS" class="OsImg">
         </a>
-        <a href="{{ urls.deb }}" class="OsLink">
+        <a href="{{ urls.deb }}" class="OsLink" onclick="firebase.analytics().logEvent('user_downloaded_manager_deb');">
           <img src="assets/Ubuntu.svg" alt="Ubuntu" class="OsImg">
         </a>
-        <a href="{{ urls.rpm }}" class="OsLink">
+        <a href="{{ urls.rpm }}" class="OsLink" onclick="firebase.analytics().logEvent('user_downloaded_manager_rpm');">
           <img src="assets/Rpm.png" alt="RPM" class="OsImg">
         </a>
 
